@@ -1,0 +1,152 @@
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-style: ;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+button {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #ff7e5f, #fd3a69);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 5px 10px rgba(255, 94, 87, 0.3);
+}
+
+.highlight {
+  color: #ff7e32;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background: #fff;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.hero-image img {
+  width: 400px;
+}
+
+.image-container {
+  position: relative;
+  width: 300px;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styled-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.about {
+  background: #fff1ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.about img {
+  width: 200px;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.about-text h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  max-width: 400px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.recipes {
+  text-align: center;
+  padding: 60px;
+  background: #fff;
+}
+
+.recipes .cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  padding: 20px;
+  max-width: 300px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: #fafafa;
+  text-align: center;
+  font-size: 18px;
+}
+
+.stats strong {
+  font-size: 28px;
+  display: block;
+  color: #000;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer .highlight {
+  color: #ff7e32;
+}
